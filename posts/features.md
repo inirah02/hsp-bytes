@@ -1,41 +1,21 @@
 ---
-title: Features
-description: Code highlight and JSFiddle for developers
+title: Coding Brain Teasers
+description: Byte-sized coding puzzles
 date: 2021-08-06
-tags: guide
+tags: brainteasers
 layout: layouts/post.njk
 ---
+Wanna dab your hands into something fun? Check out these byte-sized coding puzzles that help you optimise your coding techniques and also makes you tick! Questions are available according to various toughness level, so pick your best fit!
 
-## JSFiddle
+## Easy
 
-{% jsFiddle "//jsfiddle.net/sidswork/apk0wg96/embedded/js,html,result/dark/" %}
+Add two numbers without using the addition operator
 
-## Code
+## Intermediate
 
-### Highlight certain blocks of lines
+Given time in hh:mmformat in 24-hour notation, calculate the shorter angle between the hour and minute hand in an analog clock.
 
-```js/2-3
-// this is a command
-function myCommand() {
-	let counter = 0;
-	counter++;
-}
+## Difficult
 
-// Comment here...
-console.log('Test');
-```
+A circular birthday cake has to be divided into 8 equal pieces within 3 cuts. How can you do it?
 
-### Highlight diffs
-
-```js/2,4/3,5
-// this is some changed code
-function doSomething() {
-    let counter = 0;
-    let counter = 100;
-    counter++;
-    counter--;
-}
-
-// Test with a line break above this line.
-console.log('Test');
-```
