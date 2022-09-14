@@ -1,14 +1,10 @@
 ---
 layout: layouts/post.njk
-title: 11ty Midnight Blog Starter
+title: About Us
 templateClass: tmpl-post
 eleventyNavigation:
   key: About
   order: 3
 ---
 
-Minimalist dark mode starter template for 11ty with support for jsfiddle embeds and prismjs syntax highlighting.
-
-Demo [https://11ty-midnight.netlify.app](https://11ty-midnight.netlify.app)
-
-Github [https://github.com/sidswork/11ty-midnight.git](https://github.com/sidswork/11ty-midnight.git)
+Welcome to PESUECC's biweekly technical newsletter for your everyday FOSSip. As part of HackerSpace ECC, HSP Bytes aims to provide easy access to all things tech and help you gain exponential insights into the plethora, the domain offers. It aims to be the one stop destination for all things tech, tailored especially for students.
