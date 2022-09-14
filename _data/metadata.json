@@ -1,10 +1,10 @@
 {
-  "title": "Your Blog Name",
+  "title": "HSP BYTES",
   "url": "https://example.com/",
   "language": "en",
-  "description": "Minimalist dark mode blog starter template for 11ty",
+  "description": "PESUECC's biweekly technical newsletter for your everyday FOSSip.",
   "feed": {
-    "subtitle": "Minimalist dark mode blog starter template for 11ty",
+    "subtitle": "HSP Bytes aims to provide easy access to all things tech and help you gain exponential insights into the plethora, the domain offers. It aims to be the one stop destination for all things tech, tailored especially for students.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://example.com/"
@@ -14,7 +14,7 @@
     "url": "https://example.com/feed/feed.json"
   },
   "author": {
-    "name": "Your Name Here",
+    "name": "HackerSpace ECC",
     "email": "youremailaddress@example.com",
     "url": "https://example.com/about-me/"
   }
