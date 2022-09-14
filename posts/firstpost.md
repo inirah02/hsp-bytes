@@ -1,27 +1,28 @@
 ---
-title: This is my first post.
-description: This is a post on My Blog about agile frameworks.
+title: "Dream Booth Decoded"
+description: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation
 date: 2021-08-01
 tags:
-  - another tag
+  - researchpapers
 layout: layouts/post.njk
 ---
+ 
+## DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation
 
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+As part of White Papers on trending industry topics, we are covering Dream Booth, a large text-to-image model which achieved a remarkable leap in the evolution of AI, enabling high-quality and diverse synthesis of images from a given text prompt.
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+However, these models lack the ability to mimic the appearance of subjects in a given reference set and synthesize novel renditions of them in different contexts. In this work, we present a new approach for "personalization" of text-to-image diffusion models (specializing them to users' needs). 
 
-## Section Header
+Given as input just a few images of a subject, we fine-tune a pretrained text-to-image model (Imagen, although our method is not limited to a specific model) such that it learns to bind a unique identifier with that specific subject. 
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+Once the subject is embedded in the output domain of the model, the unique identifier can then be used to synthesize fully-novel photorealistic images of the subject contextualized in different scenes. 
 
-```text/2-3
-// this is a command
-function myCommand() {
-	let counter = 0;
-	counter++;
-}
+By leveraging the semantic prior embedded in the model with a new autogenous class-specific prior preservation loss, our technique enables synthesizing the subject in diverse scenes, poses, views, and lighting conditions that do not appear in the reference images. 
 
-// Test with a line break above this line.
-console.log('Test');
-```
+We apply our technique to several previously-unassailable tasks, including subject recontextualization, text-guided view synthesis, appearance modification, and artistic rendering (all while preserving the subject's key features). 
+
+To delve deeper, check out their GitHub Repository and the offical research paper.
+
+PDF: https://paperswithcode.com/paper/dreambooth-fine-tuning-text-to-image
+
+GITHUB: https://dreambooth.github.io/
